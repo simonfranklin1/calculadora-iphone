@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 47px;
+    border-radius: 1.5rem;
+    min-width: 370px;
+    max-width: 390px;
+    margin-top: 70px;
+}
+
+#resultado {
+    text-align: end;
+    min-height: 76px;
+    max-height: 76px;
+    padding: 0 .8rem;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#calculadora {
+    display: flex;
+    justify-content: center;
+    gap: .8rem;
+    width: 100%;
+}
+
+#calculadora button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .1s ease;
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.37);
+}
+
+#calculadora button:hover {
+    scale: 1.05;
+}
+
+#numeros-outros {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#operadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.outros {
+    background-color: #ffffffab;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.outros:hover {
+    background-color: #fff;
+}
+
+.numeros {
+    background-color: #ffffff1a;
+    color: #fff;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.numeros:hover {
+    background-color: #ffffff3b;
+}
+
+.operador, .finalizar {
+    background-color: rgb(255, 155, 40);
+    color: #fff;
+    transition: .2s;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.operador:hover, .finalizar:hover {
+    background-color: rgb(255, 173, 79);    
+}
+
+.selecionado {
+    background-color: #fff;
+    color: rgb(255, 136, 0);
+}
+
+button[value="0"] {
+    justify-content: flex-start;
+    flex: 1;
+    border-radius: 40px;
+}
