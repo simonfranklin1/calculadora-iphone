@@ -44,4 +44,4 @@ O usuário deve ser capaz de:
 - Javascript(ES6)
 
 ### Autor
-- Simon Franklin: [SimonFranklin](https://github.com/simonfranklin1)
+- Simon Franklin: [Simon Franklin](https://github.com/simonfranklin1)
