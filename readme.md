@@ -42,3 +42,6 @@ O usuário deve ser capaz de:
 - Flexbox
 - Feito em Mobile-First
 - Javascript(ES6)
+
+### Autor
+- Simon Franklin: [SimonFranklin](https://github.com/simonfranklin1)
